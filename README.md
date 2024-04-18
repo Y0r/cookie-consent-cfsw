@@ -7,6 +7,7 @@ Create new service worked on CloudFlare and deploy this code.
 
 Use following code, replace ENPOINT_URL_OF_THE_SERVICE_WORKER with URL of the endpoint.
 
+```
 checkRequirements()
   .then((response) => response.json())
   .then((data) => {
@@ -27,3 +28,4 @@ async function checkRequirements() {
   const endpoint = ENPOINT_URL_OF_THE_SERVICE_WORKER;
   return fetch(`${endpoint}?force=${force}`);
 }
+```
