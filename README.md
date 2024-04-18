@@ -1,7 +1,7 @@
 ## Service workeк for the CloudeFlare to return if a user must apply cookie consent.
 
 ### Step 1.
-Create a new service worked on CloudFlare and deploy this code.
+Create a new service worked on CloudFlare and deploy code from the serviceworker.js;
 
 ### Step 2.
 
